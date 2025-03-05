@@ -27,7 +27,7 @@ jobs:
       #       ${{ runner.os }}-maven-
       #       ${{ runner.os }}-
 
-      - uses: ketiko/gh-action-action@main
+      - uses: ketiko/gh-cache-action@main
 
       - uses: actions/setup-java@v4
         with:
